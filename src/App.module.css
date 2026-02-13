@@ -1,1 +1,10 @@
-/* App-level CSS Module styles - will be populated during Phase 1 */
+/* App-level CSS Module styles */
+
+.app {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.mainContent {
+  /* Will be populated as we add more components */
+}

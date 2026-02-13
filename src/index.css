@@ -1,1 +1,30 @@
-/* Global styles and Tailwind directives - will be populated during Phase 1 */
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Helvetica Now Text font (if available via CDN or local) */
+/* Note: Helvetica Now is a premium font. Using system fallbacks if not available */
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111;
+}
+
+/* Nike-specific font weights */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+}
