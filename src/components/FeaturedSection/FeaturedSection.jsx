@@ -1,0 +1,1 @@
+// FeaturedSection component - Phase 7

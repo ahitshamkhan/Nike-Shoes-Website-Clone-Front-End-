@@ -1,0 +1,1 @@
+// SearchBar component - Phase 2

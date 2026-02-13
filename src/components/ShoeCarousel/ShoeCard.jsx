@@ -1,0 +1,1 @@
+// ShoeCard component - Phase 4

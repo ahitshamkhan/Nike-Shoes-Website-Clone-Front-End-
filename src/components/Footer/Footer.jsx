@@ -1,0 +1,1 @@
+// Footer component - Phase 8

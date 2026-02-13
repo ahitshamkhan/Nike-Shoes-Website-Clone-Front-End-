@@ -1,0 +1,1 @@
+// CategoryCard component - Phase 7

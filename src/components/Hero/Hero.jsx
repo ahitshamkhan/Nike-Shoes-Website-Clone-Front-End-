@@ -1,0 +1,1 @@
+// Hero component - Phase 3
