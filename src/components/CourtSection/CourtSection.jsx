@@ -4,20 +4,10 @@ const CourtSection = () => {
   return (
     <section className={styles.courtSection}>
       <div className={styles.imageContainer}>
-        {/* Three images side by side */}
+        {/* Single full-width image */}
         <img 
-          src="/assets/images/phase 4.5/men-s-shoes-clothing-accessories.avif" 
-          alt="Basketball player 1" 
-          className={styles.backgroundImage}
-        />
-        <img 
-          src="/assets/images/phase 4.5/men-s-shoes-clothing-accessories (1).avif" 
-          alt="Basketball player 2" 
-          className={styles.backgroundImage}
-        />
-        <img 
-          src="/assets/images/phase 4.5/men-s-shoes-clothing-accessories (2).avif" 
-          alt="Basketball player 3" 
+          src="/assets/images/phase 4.5/nike-just-do-it (6).avif" 
+          alt="Basketball players" 
           className={styles.backgroundImage}
         />
         
