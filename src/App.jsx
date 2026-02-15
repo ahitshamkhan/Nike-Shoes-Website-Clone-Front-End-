@@ -1,5 +1,6 @@
 import TopHeader from './components/TopHeader/TopHeader';
 import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 import styles from './App.module.css';
 
 function App() {
@@ -7,15 +8,16 @@ function App() {
     <div className={styles.app}>
       <TopHeader />
       <Navbar />
+      <Hero />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
-        <div className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center py-20">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4 text-white">Nike Frontend</h1>
+            <h2 className="text-3xl font-bold mb-4 text-white">More Sections Coming Soon</h2>
             <p className="text-gray-300">Phase 1: Top Header Complete ✓</p>
             <p className="text-gray-300">Phase 2: Main Navbar Complete ✓</p>
-            <p className="text-sm text-gray-400 mt-2">More components coming in next phases...</p>
+            <p className="text-gray-300">Phase 3: Hero Section Complete ✓</p>
           </div>
         </div>
       </main>

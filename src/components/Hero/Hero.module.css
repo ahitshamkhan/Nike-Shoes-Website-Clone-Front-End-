@@ -1,1 +1,30 @@
 /* Hero styles - Phase 3 */
+
+/* Hero section container */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+  height: 90vh;
+}
+
+/* Video background */
+.heroVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh;
+  }
+}
