@@ -14,6 +14,7 @@ import RedGirlsSection from './components/RedGirlsSection/RedGirlsSection';
 import BrickCourtSection from './components/BrickCourtSection/BrickCourtSection';
 import ShopKids from './components/ShopKids/ShopKids';
 import NikeSymbolSection from './components/NikeSymbolSection/NikeSymbolSection';
+import FooterBar from './components/FooterBar/FooterBar';
 import styles from './App.module.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <BrickCourtSection />
       <ShopKids />
       <NikeSymbolSection />
+      <FooterBar />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
