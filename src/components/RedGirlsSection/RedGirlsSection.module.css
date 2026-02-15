@@ -1,0 +1,13 @@
+/* RedGirlsSection styles - Phase 10.5 */
+
+.redGirlsSection {
+  width: 100%;
+  background-color: rgb(31, 31, 33);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
