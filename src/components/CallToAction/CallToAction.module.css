@@ -1,0 +1,100 @@
+/* CallToAction styles - Phase 3.5 */
+
+/* CTA Section */
+.ctaSection {
+  background-color: rgb(26, 26, 26);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaContainer {
+  max-width: 800px;
+  text-align: center;
+}
+
+/* CTA Title (H1) */
+.ctaTitle {
+  color: #FFFFFF;
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+/* CTA Subtitle (H2) */
+.ctaSubtitle {
+  color: #FFFFFF;
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
+/* CTA Button */
+.ctaButton {
+  background-color: #FFFFFF;
+  color: #111111;
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.ctaButton:hover {
+  background-color: #E5E5E5;
+  transform: scale(1.05);
+}
+
+.ctaButton:active {
+  transform: scale(0.98);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ctaSection {
+    padding: 40px 20px;
+  }
+
+  .ctaContainer {
+    max-width: 600px;
+  }
+
+  .ctaTitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .ctaSubtitle {
+    font-size: 1rem;
+  }
+
+  .ctaButton {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ctaContainer {
+    max-width: 100%;
+  }
+
+  .ctaTitle {
+    font-size: 1.75rem;
+  }
+
+  .ctaSubtitle {
+    font-size: 0.9rem;
+  }
+}
