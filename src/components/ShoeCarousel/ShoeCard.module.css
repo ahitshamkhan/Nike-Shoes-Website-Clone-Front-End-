@@ -16,23 +16,6 @@
   transform: translateY(-8px);
 }
 
-/* Logo Container */
-.logoContainer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  display: block;
-}
-
 /* Image Container */
 .imageContainer {
   width: 100%;
@@ -72,11 +55,6 @@
 @media (max-width: 768px) {
   .shoeCard {
     width: 280px;
-  }
-
-  .logo {
-    width: 50px;
-    height: 50px;
   }
 
   .imageContainer {

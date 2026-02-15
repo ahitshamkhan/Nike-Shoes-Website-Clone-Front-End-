@@ -5,37 +5,27 @@ import ShoeCard from './ShoeCard';
 const ShoeCarousel = () => {
   const scrollRef = useRef(null);
 
-  // Shoe data with matching logos
+  // All shoe images from the folder
   const shoes = [
     {
       id: 1,
-      name: 'Ja 3',
-      logo: '/assets/images/shoes/Gemini_Generated_Image_llj0mvllj0mvllj0.png',
-      image: '/assets/images/shoes/JA+3.avif'
+      name: 'Sabrina 3',
+      image: '/assets/images/shoes/nike-just-do-it.avif'
     },
     {
       id: 2,
-      name: 'Freak 7',
-      logo: '/assets/images/shoes/freek 7.png',
-      image: '/assets/images/shoes/GIANNIS+FREAK+7.avif'
+      name: 'Sabrina 3',
+      image: '/assets/images/shoes/nike-just-do-it (1).avif'
     },
     {
       id: 3,
-      name: 'Sabrina 3',
-      logo: '/assets/images/shoes/sabrina.png',
-      image: '/assets/images/shoes/SABRINA+3.avif'
+      name: "A'One",
+      image: '/assets/images/shoes/nike-just-do-it (2).avif'
     },
     {
       id: 4,
-      name: "A'One",
-      logo: "/assets/images/shoes/A'one.png",
-      image: "/assets/images/shoes/A'ONE.avif"
-    },
-    {
-      id: 5,
-      name: 'KD18 GI',
-      logo: '/assets/images/shoes/KD18+GI.png',
-      image: '/assets/images/shoes/KD18+GI.avif'
+      name: 'KD18',
+      image: '/assets/images/shoes/nike-just-do-it (3).avif'
     }
   ];
 
