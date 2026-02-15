@@ -11,6 +11,7 @@ import CategoryCards from './components/CategoryCards/CategoryCards';
 import CustomizeSection from './components/CustomizeSection/CustomizeSection';
 import GreatnessSection from './components/GreatnessSection/GreatnessSection';
 import RedGirlsSection from './components/RedGirlsSection/RedGirlsSection';
+import BrickCourtSection from './components/BrickCourtSection/BrickCourtSection';
 import styles from './App.module.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <CustomizeSection />
       <RedGirlsSection />
       <GreatnessSection />
+      <BrickCourtSection />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
