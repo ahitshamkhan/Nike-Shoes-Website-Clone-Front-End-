@@ -1,1 +1,102 @@
 /* ShoeCarousel styles - Phase 4 */
+
+/* Carousel Section */
+.carouselSection {
+  background-color: rgb(26, 26, 26);
+  padding: 60px 0;
+}
+
+.carouselContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Section Title */
+.sectionTitle {
+  color: #FFFFFF;
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+/* Carousel Wrapper */
+.carouselWrapper {
+  position: relative;
+}
+
+/* Carousel Scroll Container */
+.carouselScroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.carouselScroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Arrow Buttons */
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.arrowButton:hover {
+  background-color: #FFFFFF;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.leftArrow {
+  left: 0;
+}
+
+.rightArrow {
+  right: 0;
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  color: #111;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carouselSection {
+    padding: 40px 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .arrowButton {
+    display: none;
+  }
+
+  .carouselScroll {
+    padding: 10px;
+    gap: 15px;
+  }
+}
