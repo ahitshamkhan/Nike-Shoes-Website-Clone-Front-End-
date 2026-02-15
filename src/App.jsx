@@ -8,6 +8,7 @@ import ShopByAthlete from './components/ShopByAthlete/ShopByAthlete';
 import Basketball from './components/Basketball/Basketball';
 import FeaturedSection from './components/FeaturedSection/FeaturedSection';
 import CategoryCards from './components/CategoryCards/CategoryCards';
+import CustomizeSection from './components/CustomizeSection/CustomizeSection';
 import styles from './App.module.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Basketball />
       <FeaturedSection />
       <CategoryCards />
+      <CustomizeSection />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
