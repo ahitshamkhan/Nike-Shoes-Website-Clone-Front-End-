@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import CallToAction from './components/CallToAction/CallToAction';
 import ShoeCarousel from './components/ShoeCarousel/ShoeCarousel';
+import CourtSection from './components/CourtSection/CourtSection';
 import styles from './App.module.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <CallToAction />
       <ShoeCarousel />
+      <CourtSection />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
@@ -24,6 +26,7 @@ function App() {
             <p className="text-gray-300">Phase 3: Hero Video Complete ✓</p>
             <p className="text-gray-300">Phase 3.5: Call to Action Complete ✓</p>
             <p className="text-gray-300">Phase 4: Shoe Carousel Complete ✓</p>
+            <p className="text-gray-300">Phase 4.5: Court Section Complete ✓</p>
           </div>
         </div>
       </main>
