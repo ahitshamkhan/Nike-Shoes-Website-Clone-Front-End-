@@ -1,0 +1,15 @@
+/* NikeSymbolSection styles - Phase 13 */
+
+.nikeSymbolSection {
+  width: 100%;
+  background-color: rgb(31, 31, 33);
+  height: 300px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}

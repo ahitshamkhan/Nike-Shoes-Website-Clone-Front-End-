@@ -13,6 +13,7 @@ import GreatnessSection from './components/GreatnessSection/GreatnessSection';
 import RedGirlsSection from './components/RedGirlsSection/RedGirlsSection';
 import BrickCourtSection from './components/BrickCourtSection/BrickCourtSection';
 import ShopKids from './components/ShopKids/ShopKids';
+import NikeSymbolSection from './components/NikeSymbolSection/NikeSymbolSection';
 import styles from './App.module.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <GreatnessSection />
       <BrickCourtSection />
       <ShopKids />
+      <NikeSymbolSection />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
