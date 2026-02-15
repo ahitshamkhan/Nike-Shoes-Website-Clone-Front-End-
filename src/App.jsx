@@ -6,6 +6,7 @@ import ShoeCarousel from './components/ShoeCarousel/ShoeCarousel';
 import CourtSection from './components/CourtSection/CourtSection';
 import ShopByAthlete from './components/ShopByAthlete/ShopByAthlete';
 import Basketball from './components/Basketball/Basketball';
+import FeaturedSection from './components/FeaturedSection/FeaturedSection';
 import styles from './App.module.css';
 
 function App() {
@@ -19,13 +20,14 @@ function App() {
       <CourtSection />
       <ShopByAthlete />
       <Basketball />
+      <FeaturedSection />
       
       {/* Placeholder for other components */}
       <main className={styles.mainContent}>
         <div className="flex items-center justify-center py-20">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4 text-white">More Sections Coming Soon</h2>
-            <p className="text-gray-300">All Phases Complete! ✓</p>
+            <h2 className="text-3xl font-bold mb-4 text-white">All Phases Complete!</h2>
+            <p className="text-gray-300">Nike-Inspired Website ✓</p>
           </div>
         </div>
       </main>
