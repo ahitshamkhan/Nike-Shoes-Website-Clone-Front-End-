@@ -1,1 +1,93 @@
 /* ShopByAthlete styles - Phase 5 */
+
+/* Athlete Section */
+.athleteSection {
+  background-color: rgb(31, 31, 33);
+  padding: 60px 0;
+}
+
+.athleteContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header with title and arrows */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  color: #FFFFFF;
+  font-family: 'Helvetica Now Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Arrow buttons container */
+.arrowButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.arrowButton {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.arrowButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+}
+
+/* Athlete scroll container */
+.athleteScroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.athleteScroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .athleteSection {
+    padding: 40px 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .arrowButtons {
+    display: none;
+  }
+
+  .athleteScroll {
+    padding: 10px;
+    gap: 15px;
+  }
+}
